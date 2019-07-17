@@ -3102,6 +3102,13 @@ div .column-section:first-child, .fullwidth-section + .column-section { margin-t
 .thumb-hover.overlay-color:hover .caption-sub , .thumb-hover.overlay-color:hover .caption-name { color: #000000; }	
 .thumb-hover.text-light.overlay-color:hover .caption-sub , .thumb-hover.text-light.overlay-color:hover .caption-name { color: #ffffff; }	
 
+
+@media screen and (max-width:768 px) {
+frame {
+	height:300px;
+	}
+}
+
 /* video hover (only for desktops) */
 @media only screen and (min-width: 1024px) {
 .thumb-hover.play-on-hover img {
@@ -3796,6 +3803,8 @@ div[class*='spacer-'] + h1, div[class*='spacer-'] + h2, div[class*='spacer-'] + 
 	  40% { top: -4px; }
 	  80% { top: 0; }
 	}
+
+
 
 /* bullets pulse */
 .loader-icon.bullets-pulse span {
