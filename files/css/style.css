@@ -3104,7 +3104,7 @@ div .column-section:first-child, .fullwidth-section + .column-section { margin-t
 
 
 @media screen and (max-width:768 px) {
-frame {
+iframe {
 	height:300px;
 	}
 }
