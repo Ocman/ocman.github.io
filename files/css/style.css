@@ -3103,7 +3103,7 @@ div .column-section:first-child, .fullwidth-section + .column-section { margin-t
 .thumb-hover.text-light.overlay-color:hover .caption-sub , .thumb-hover.text-light.overlay-color:hover .caption-name { color: #ffffff; }	
 
 
-@media screen and (max-width:768 px) {
+@media  (max-width:425 px) {
 iframe {
 	height:300px;
 	}
